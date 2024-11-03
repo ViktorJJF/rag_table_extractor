@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* General table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Table header styling */
+        thead th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        /* Table body cell styling */
+        tbody td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        /* Alternate row background */
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Hover effect on rows */
+        tbody tr:hover {
+            background-color: #ddd;
+        }
+
+        /* Center-aligned header text */
+        th {
+            text-align: center;
+        }
+
+        /* Center-aligned cells for a specific column */
+        td:last-child {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombres</th>
+                <th></th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Victor Juan</td>
+                <td>Jimenez Flores</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td>Blanca Marialena</td>
+                <td></td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td colspan="2">Oscar Jimenez</td>
+                <td>38</td>
+            </tr>
+            <tr>
+                <td colspan="2">Juan Carlos Jimenez</td>
+                <td>33</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
