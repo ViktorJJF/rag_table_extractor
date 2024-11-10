@@ -1,0 +1,4 @@
+# ignore downloaded images, txt and pdf files
+downloaded_images/
+*.pdf
+*.md
