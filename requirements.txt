@@ -1,2 +1,12 @@
 langchain-unstructured==0.1.5
 docling==2.4.2
+pdfminer.six
+unstructured_inference
+unstructured
+unstructured-client
+langchain-unstructured
+langchain-community
+pdfminer.six
+pi_heif
+html2markdown
+unstructured_pytesseract

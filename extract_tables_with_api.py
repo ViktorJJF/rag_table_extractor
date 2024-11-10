@@ -8,6 +8,13 @@ elements = partition_pdf(filename=fname,
                         strategy='hi_res',
                        )
 
+# for el in elements:
+#     if el.category == "Table":
+#         print(el.text)
+#     else:
+#         print(el.category)
+#         print(el.text)
+
 tables = [el for el in elements if el.category == "Table"]
 
 for table in tables:

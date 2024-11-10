@@ -1,3 +1,5 @@
+import time
+start_time = time.time()
 from pathlib import Path
 from docling.datamodel.base_models import InputFormat
 from docling.datamodel.pipeline_options import PdfPipelineOptions
@@ -44,3 +46,6 @@ for item, level in conv_result.document.iterate_items():
             print(f"Image saved at: {img_file_path}")
         else:
             print(f"No image data available for picture item {item.self_ref}")
+
+end_time = time.time()
+print(f"Total time taken: {end_time - start_time} seconds")
